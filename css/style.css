@@ -1,0 +1,469 @@
+/*----Google Fonts----*/
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto");
+
+/*-------Elements---------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*-------Include Div's---------*/
+.nav-wrapper.header-wrapper.footer-wrapper{
+  width: 100%;
+}
+
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  max-width: 100%;
+  background-color: transparent;
+  height: auto;
+}
+
+h1.display-1 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 0px;
+  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1.display-2 {
+  font-family: "Robot", serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-top: 1px solid #bd9363;
+  border-bottom: 1px solid #bd9363;
+}
+
+h1.display-3 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-family: "Robot", serif;
+  font-weight: 400;
+  background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3rem;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-family: "Robot", serif;
+  font-weight: 400;
+  background: linear-gradient(to bottom, #fff 20%, #bd9363 80%, #fff 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: #ead6bb;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #ead6bb;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+li {
+  font-family: "Roboto", sans-serif;
+  color: #ead6bb;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+/*-----Jumbotron Styles-------*/
+.jumbotron {
+  background-image: url(../img/jumbotronBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-top: 0px;
+  border-radius: none;
+  background-color: transparent;
+}
+
+/*---Carousel Container---*/
+.carousel {
+  position: relative;
+  background-image: url(../img/sliderBG.png);
+  padding: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*---Carousel Image---*/
+.img {
+  height: 429px;
+  width: 523px;
+}
+
+/*---------Navbar Styles-----------*/
+
+/*---Navbar---*/
+.bg-primary {
+  background-image: url(../img/navBG.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*---Navbar Logo---*/
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+/*---Navbar Link Styles---*/
+.navbar-dark .navbar-nav .nav-link {
+  background: linear-gradient(to top, #fff 40%, #bd9363 40%, #fff 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Playfair Display SC", sans-serif;
+  font-weight: 700px;
+}
+
+/*---Navbar Link Hover---*/
+.navbar-dark .navbar-nav .nav-link:hover {
+  -webkit-text-fill-color: #fff;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*---------Section one Styles-----------*/
+
+/*---paragraph styles--*/
+#sectionOne p {
+  font-family: "Roboto", sans-serif;
+  color: #ead6bb;
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+/*---List padding and positioning--*/
+.list-wrapper {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+
+/*--Top and Bottom Border--*/
+.divideLiner2 {
+  border-top: 2px solid #ead6bb !important;
+  border-bottom: 2px solid #ead6bb !important;
+}
+
+/*---------Footer Styles-----------*/
+
+footer {
+  padding-top: 50px;
+}
+
+/*---Copywrite Styles---*/
+p.copywrite {
+  font-size: 0.8rem;
+  color: #ead6bb;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*-----------Responsive Styles--------------*/
+
+/*--Tablet Media Queries--*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*--Nav Bar Collapse Styles--*/
+  .navbar-collapse {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  /*------Element Styles------*/
+  h1.display-1 {
+    font-family: "Playfair Display SC", Sans Serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 40px;
+  }
+
+  h2 {
+    font-family: "Playfair Display SC", Sans Serif;
+    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  /*-----Jumbotron Styles-------*/
+  .jumbotron {
+    background-image: url(../img/jumbotronBGIpad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+    border-radius: none;
+    background-color: transparent;
+  }
+
+  /*--------Carousel Container----------*/
+  .carousel {
+    position: relative;
+    background-image: url(../img/sliderBG.png);
+    padding: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+  }
+
+  /*---Carousel Image---*/
+  .img {
+    height: 350px;
+    width: 100%;
+  }
+
+  /*---Paragraph Styles---*/
+  #sectionOne p {
+    font-family: Roboto, Sans Serif;
+    color: #ead6bb;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  /*---list padding and positioning--*/
+  .list-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+/*--Phone Md-Lg Media Queries--*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  /*--Nav Bar Collapse Styles--*/
+  .navbar-collapse {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  /*-------Element Styles------*/
+  h1.display-1 {
+    font-family: "Playfair Display SC", Sans Serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 0px;
+    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+  }
+
+  h2 {
+    font-family: "Playfair Display SC", Sans Serif;
+    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  /*-----Jumbotron Styles-------*/
+  .jumbotron {
+    background-image: url(../img/jumbotronBGPhone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+    border-radius: none;
+    background-color: transparent;
+  }
+
+  /*---Carousel Container---*/
+  .carousel {
+    position: relative;
+    background-image: url(../img/sliderBG.png);
+    padding: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  /*---Carousel Image---*/
+  .img {
+    height: 350px;
+    width: 100%;
+  }
+
+  /*--list padding and positioning--*/
+  .list-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+  }
+
+  /*---Paragraph Styles---*/
+  #sectionOne p {
+    font-family: Roboto, Sans Serif;
+    color: #ead6bb;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}
+
+/*---Phone Sm Media Queries----*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  /*--Nav Bar Collapse Styles--*/
+  .navbar-collapse {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  /*-------Element Styles---------*/
+  h1.display-1 {
+    font-family: "Playfair Display SC", Sans Serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 50px;
+  }
+
+  h2 {
+    font-family: "Playfair Display SC", Sans Serif;
+    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  h3 {
+    font-family: "Robot", serif;
+    font-weight: 400;
+    background: linear-gradient(to bottom, #fff 20%, #bd9363 80%, #fff 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+  }
+
+  /*-----Jumbotron Styles-------*/
+  .jumbotron {
+    background-image: url(../img/jumbotronBGPhone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+    border-radius: none;
+    background-color: transparent;
+  }
+
+  /*---Carousel Container---*/
+  .carousel {
+    position: relative;
+    background-image: url(../img/sliderBG.png);
+    padding: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  /*---Carousel Image---*/
+  .img {
+    height: 320px;
+    width: 100%;
+  }
+
+  /*---Paragraph Styles---*/
+  #sectionOne p {
+    font-family: Roboto, Sans Serif;
+    color: #ead6bb;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}
