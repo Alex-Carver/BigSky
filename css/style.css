@@ -1,5 +1,8 @@
 /*----Google Fonts----*/
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Tajawal:300,400');
+
+/*--font-family: 'lato' , sans-serif;
+font-family: 'Tajawal', sans-serif;--*/
 
 /*-------Elements---------*/
 * {
@@ -7,117 +10,183 @@
   margin: 0;
 }
 
-/*-------Include Div's---------*/
-.nav-wrapper.header-wrapper.footer-wrapper{
-  width: 100%;
-}
 
-body {
-  background-image: url(../img/bg.png);
+header {
+  background-image: url(../img/headerBG.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: auto;
+  height: 700px;
+  background-attachment: fixed;
 }
 
-header {
-  max-width: 100%;
-  background-color: transparent;
-  height: auto;
-}
-
-h1.display-1 {
-  font-family: "Playfair Display SC", serif;
+h1{
+  font-family: 'lato' , sans-serif;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 4rem;
+  letter-spacing: 2px;
   margin-bottom: 0px;
-  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h1.display-2 {
-  font-family: "Robot", serif;
-  font-weight: 400;
-  font-size: 2.4rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-top: 1px solid #bd9363;
-  border-bottom: 1px solid #bd9363;
-}
-
-h1.display-3 {
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
-  font-size: 2.4rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fff;
 }
 
 h2 {
-  font-family: "Robot", serif;
-  font-weight: 400;
-  background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2.3rem;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-top: 0px;
-  padding-bottom: 40px;
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-bottom: 20px;
 }
 
+
+
 h3 {
-  font-family: "Robot", serif;
-  font-weight: 400;
-  background: linear-gradient(to bottom, #fff 20%, #bd9363 80%, #fff 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2rem;
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+#sectionOne h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 20px;
 }
 
 h4 {
-  font-family: "Roboto", sans-serif;
-  color: #ead6bb;
-  font-weight: 400;
-  font-size: 1.4rem;
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 280px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5F6192;
+    border-color: #5F6192;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #262745;
+    border-color: #262745;
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 2px 2px rgba(0,0,0,.4);
+}
+
+span{
+  display: inline-block;
+}
+
+i{
+  color:#5F6192;
+  padding-right: 5px;
+}
+
+.fa:hover{
+  color: #fff;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  color: #ead6bb;
+  color: #262745;
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 li {
   font-family: "Roboto", sans-serif;
-  color: #ead6bb;
+  color: #92885F;
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 /*-----Jumbotron Styles-------*/
 .jumbotron {
-  background-image: url(../img/jumbotronBG.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  margin-top: 0px;
-  border-radius: none;
-  background-color: transparent;
+    background: transparent;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-top: 240px;
+    height: 600px;
+    border-radius: none;
 }
+
+/*-----Arrow Bounce Animation---*/
+a {
+  color: white;
+  text-decoration: none;
+}
+.arrow {
+  text-align: center;
+
+}
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
 
 /*---Carousel Container---*/
 .carousel {
@@ -139,77 +208,166 @@ li {
 /*---------Navbar Styles-----------*/
 
 /*---Navbar---*/
-.bg-primary {
-  background-image: url(../img/navBG.png);
+.fixed-top {
+  background-color:rgba(95, 97, 146,0.7)!important;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
 }
 
 /*---Navbar Logo---*/
 .logo {
-  width: 200px;
+  width: 100%;
   height: auto;
+
 }
 
-/*---Navbar Link Styles---*/
-.navbar-dark .navbar-nav .nav-link {
-  background: linear-gradient(to top, #fff 40%, #bd9363 40%, #fff 60%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: "Playfair Display SC", sans-serif;
-  font-weight: 700px;
+.fixed-top .navbar-nav .nav-link {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400px;
+    color: #fff;
 }
 
 /*---Navbar Link Hover---*/
-.navbar-dark .navbar-nav .nav-link:hover {
-  -webkit-text-fill-color: #fff;
-  background: rgba(0, 0, 0, 0.5) !important;
+.fixed-top .navbar-nav .nav-link:hover {
+
+ color: #5F6192;
 }
 
-/*---------Section one Styles-----------*/
+.navbar-toggler {
+    padding: .25rem .75rem;
+    background-image: url(../img/buttonToggle.svg);
+    height: 60px;
+    width: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*------------------Section one Styles-----------*/
+#sectionOne {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #262745;
+}
 
-/*---paragraph styles--*/
 #sectionOne p {
-  font-family: "Roboto", sans-serif;
-  color: #ead6bb;
-  font-weight: 400;
-  font-size: 1.4rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-bottom: 50px;
 }
 
+
+/*-------------------Section Two Styles----*/
+#sectionTwo {
+    padding-top: 100px;
+    background: #eee;
+}
+#sectionTwo p {
+    font-family: "Roboto", sans-serif;
+    color: #262745;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-bottom: 50px;
+}
+
+#sectionTwo h2 {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #262745;
+    padding-bottom: 20px;
+}
+
+#sectionTwo h4{
+    font-family: 'Robot', sans-serif;
+    color: #262745;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
 /*---List padding and positioning--*/
 .list-wrapper {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 40px;
 }
 
-/*--Top and Bottom Border--*/
-.divideLiner2 {
-  border-top: 2px solid #ead6bb !important;
-  border-bottom: 2px solid #ead6bb !important;
+
+/*----Section Three Styles--*/
+#sectionThree{
+  height: 300px;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../img/spacer.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
+
 }
+
+
+#sectionThree p{
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+span.spacer-text{
+  font-size: 2.5rem;
+}
+
 
 /*---------Footer Styles-----------*/
 
 footer {
   padding-top: 50px;
+  height:auto;
+  background: #262745;
 }
 
+footer h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.copy-wrapper{
+
+  background: #5F6192;
+
+}
 /*---Copywrite Styles---*/
 p.copywrite {
   font-size: 0.8rem;
-  color: #ead6bb;
+  color: #fff;
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  padding-top: 50px
+}
+
+
+ol li{
+  display: inline-block;
+  list-style-type: none;
 }
 
 /*-----------Responsive Styles--------------*/
@@ -220,250 +378,162 @@ p.copywrite {
   /*--Nav Bar Collapse Styles--*/
   .navbar-collapse {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background:#5F6192;
   }
 
-  /*------Element Styles------*/
-  h1.display-1 {
-    font-family: "Playfair Display SC", Sans Serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 0px;
-    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: 40px;
-  }
-
-  h2 {
-    font-family: "Playfair Display SC", Sans Serif;
-    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    font-size: 1.3rem;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-  }
-
-  /*-----Jumbotron Styles-------*/
-  .jumbotron {
-    background-image: url(../img/jumbotronBGIpad.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: auto;
-    margin-top: -60px;
-    border-radius: none;
-    background-color: transparent;
-  }
-
-  /*--------Carousel Container----------*/
-  .carousel {
-    position: relative;
-    background-image: url(../img/sliderBG.png);
-    padding: 10px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 40px;
-  }
-
-  /*---Carousel Image---*/
-  .img {
-    height: 350px;
-    width: 100%;
-  }
-
-  /*---Paragraph Styles---*/
-  #sectionOne p {
-    font-family: Roboto, Sans Serif;
-    color: #ead6bb;
+  h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
     font-weight: 400;
-    font-size: 1.4rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
-  }
-
-  /*---list padding and positioning--*/
-  .list-wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-  }
+    font-size: 2rem;
+    padding-bottom: 200px;
 }
 
+h3 {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+}
+  
 /*--Phone Md-Lg Media Queries--*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   /*--Nav Bar Collapse Styles--*/
   .navbar-collapse {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: #5F6192;
   }
 
-  /*-------Element Styles------*/
-  h1.display-1 {
-    font-family: "Playfair Display SC", Sans Serif;
+  h1 {
+    font-family: 'lato' , sans-serif;
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
     margin-bottom: 0px;
-    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: 50px;
-  }
-
-  h2 {
-    font-family: "Playfair Display SC", Sans Serif;
-    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    font-size: 1.3rem;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-  }
-
-  /*-----Jumbotron Styles-------*/
-  .jumbotron {
-    background-image: url(../img/jumbotronBGPhone.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: auto;
-    margin-top: -60px;
-    border-radius: none;
-    background-color: transparent;
-  }
-
-  /*---Carousel Container---*/
-  .carousel {
-    position: relative;
-    background-image: url(../img/sliderBG.png);
-    padding: 10px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0px;
-    margin-bottom: 40px;
-  }
-
-  /*---Carousel Image---*/
-  .img {
-    height: 350px;
-    width: 100%;
-  }
-
-  /*--list padding and positioning--*/
-  .list-wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-  }
-
-  /*---Paragraph Styles---*/
-  #sectionOne p {
-    font-family: Roboto, Sans Serif;
-    color: #ead6bb;
-    font-weight: 400;
-    font-size: 1rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
-  }
+    color: #fff;
 }
 
+h3 {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+  h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 200px;
+}
+
+#sectionTwo p {
+    font-family: "Roboto", sans-serif;
+    color: #262745;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-bottom: 50px;
+    text-align: left!important;
+}
+
+#sectionTwo h2 {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #262745;
+    padding-bottom: 20px;
+}
+
+#sectionThree p {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+span.spacer-text {
+    font-size: 1.3rem;
+}
+
+footer h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 200px;
+    height: auto;
+
+}
+.img {
+    height: auto;
+    width: 100%;
+}
+
+#sectionTwo {
+    padding-top: 100px;
+    background: #eee;
+    padding-left: 20px;
+
+}
+
+
+}
+  
 /*---Phone Sm Media Queries----*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   /*--Nav Bar Collapse Styles--*/
   .navbar-collapse {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: #5F6192;
   }
-
-  /*-------Element Styles---------*/
-  h1.display-1 {
-    font-family: "Playfair Display SC", Sans Serif;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 0px;
-    background: linear-gradient(to top, #fff 20%, #bd9363 50%, #fff 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: 50px;
-  }
-
-  h2 {
-    font-family: "Playfair Display SC", Sans Serif;
-    background: linear-gradient(to bottom, #fff 20%, #bd9363 10%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
+span.spacer-text {
     font-size: 1.3rem;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-  }
+}
 
-  h3 {
-    font-family: "Robot", serif;
-    font-weight: 400;
-    background: linear-gradient(to bottom, #fff 20%, #bd9363 80%, #fff 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h3 {
+    font-family: 'lato' , sans-serif;
+    font-weight: 700;
     font-size: 2rem;
-  }
-
-  /*-----Jumbotron Styles-------*/
-  .jumbotron {
-    background-image: url(../img/jumbotronBGPhone.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: auto;
-    margin-top: -60px;
-    border-radius: none;
-    background-color: transparent;
-  }
-
-  /*---Carousel Container---*/
-  .carousel {
-    position: relative;
-    background-image: url(../img/sliderBG.png);
-    padding: 10px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0px;
-    margin-bottom: 40px;
-  }
-
-  /*---Carousel Image---*/
-  .img {
-    height: 320px;
-    width: 100%;
-  }
-
-  /*---Paragraph Styles---*/
-  #sectionOne p {
-    font-family: Roboto, Sans Serif;
-    color: #ead6bb;
-    font-weight: 400;
-    font-size: 1rem;
-    padding-top: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    color: #fff;
     padding-bottom: 20px;
-    margin: 0;
-  }
+}
+
+footer h4 {
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.img {
+    height: auto;
+    width: 100%;
+}
+
+#sectionTwo {
+    padding-top: 100px;
+    background: #eee;
+    padding-left: 20px;
+
+}
+
 }

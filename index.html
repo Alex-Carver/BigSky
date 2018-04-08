@@ -8,6 +8,8 @@
   <meta name="keywords" content="Ben Emison Insurance, Equine Insurance,  Cutting Horse Insurance, Horse Insurance">
   <meta name="description" content="Ben Emison Insurance Agency, Inc. Specializing only in Equine Insurance. ">
 
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -18,17 +20,14 @@
 </head>
 
 <body>
-
-  <!--Nav-->
-  <div class="nav-wrapper">
     <!-- Nav -->
-  <nav class="navbar navbar-dark bg-primary navbar-expand-lg py-md-2">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img class=" logo img-fluid" src="./img/logo.png" alt="logo"></a>
+  <nav class="navbar fixed-top navbar-expand-lg py-md-2">
+      <a class="navbar-brand" href="#"><img class=" logo img-fluid" src="./img/logo.svg" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-      <div class="navbar-collapse collapse justify-content-center" id="navbarNav">
+  
+      <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item py-md-2"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item py-md-2"><a href="#" class="nav-link">About</a></li>
@@ -37,28 +36,49 @@
           <li class="nav-item py-md-2"><a href="#" class="nav-link">Contact Us</a></li>
         </ul>
       </div>
-    </div>
+
     <!--.container -->
   </nav>
-  </div>
 
   <!--Header-->
-  <div class="header-wrapper">
-      <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="jumbotron">
+<header>
+  <div class="container">
+    <div class="jumbotron">
         <div class="row">
-          <div class="col-md-6 text-center">
-            <h1 class="display-1">Coverage You Can Count On!</h1>
-            <h1 class="display-2">1-877-599-9001<br> ON CALL 24/7</h1>
-            <h2>Immediate coverage available at all Western Bloodstock Sales</h2>
+          <div class="col-md-12 text-center">
+            <h1>Ben Emison Insurance</h1>
+              <h4>Coverage you can count on</h4>
           </div>
-          <div class="col-md-6">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
+        </div>
+      <div class=" text-center arrow bounce">
+        <a class="fa fa-arrow-down fa-2x" href="#"></a>
+      </div>
+    </div>
+  </div>
+    <!-- .container -->
+</header>
+
+<section id="sectionOne">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2> We got you covered</h2>
+        <p>Open 24 / 7 365 ready to help you with anything 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-left">
+       <h3> <i class="fa fa-phone"></i>1-877-599-9001</h3>
+        <br>
+        <h3> <i class="fa  fa-clock-o"></i> ON CALL 24/7</h3>
+        <h4>Immediate coverage available at all Western Bloodstock Sales</h4>
+        <p class=text-left><button class="btn btn-primary">Get help now</button></p>
+      </div>
+      <div class="col-md-6">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100 img" src="./img1.png" alt="First slide">
+                  <img class="d-block w-100 img" src="./img/img1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 img" src="./img/img2.png" alt="Second slide">
@@ -77,22 +97,21 @@
           </div>
         </div>
       </div>
-    </div>
+  </section>
     <!-- .container -->
-  </header>
-  </div>
 
   <!-- Section One Content -->
-  <section id="sectionOne">
+  <section id="sectionTwo">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class=" display-3 text-center">What We Can Cover For You</h1>
+          <h2 class="text-center">What We Can Cover</h2>
+          <p class=text-center>We cover a wide range of insurances<br>From Major Medical Services to World Wide Coverage</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-md-6 text-left list-wrapper">
-          <h3><u>Insuring the Horse Industry:</u></h3>
+          <h4>Insuring the Horse Industry:</h4>
           <ul>
             <li>Cutting</li>
             <li>Reining</li>
@@ -112,7 +131,7 @@
           </ul>
         </div>
         <div class="col-md-6 text-left list-wrapper">
-          <h3><u>Coverages:</u></h3>
+          <h4>Coverages:</h4>
           <ul>
             <li>Full Mortality, which includes theft</li>
             <li>Emergency Colic Surgery Coverage</li>
@@ -134,59 +153,65 @@
       </div>
       <div class="row">
         <div class="col-md-6 text-left list-wrapper">
-          <h3><u>Additional Livestock/ Show/ Registered:</u></h3>
+          <h4>Additional Livestock/ Show/ Registered:</h4>
           <ul>
             <li>Show Cattle</li>
             <li>Exotic Animals</li>
           </ul>
-          <h4 class="lite">**Not all coverage's are available to all breeds and/or uses.</h4>
+          <p>**Not all coverage's are available to all breeds and/or uses.</p>
         </div>
         <div class="col-md-6 text-left list-wrapper">
-          <h3><u>Additional Coverage's:</u></h3>
+          <h4>Additional Coverage's:</h4>
           <ul>
             <li>Farm - Ranch Coverage</li>
             <li>Liability</li>
           </ul>
         </div>
       </div>
-      <div class="row divideLiner2">
+    </div>
+  </section>
+
+  <section id="sectionThree">
+    <div class="container">
+      <div class="row">
         <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-6 offset-md-3">
-              <p class="text-center">Ben Emison Insurance Agency, Inc.Specializing only in Equine Insurance<b>On hand at all major cutting sales</b></p>
-            </div>
-          </div>
+              <p class="text-center"><span class="spacer-text">Ben Emison Insurance Agency, Inc. </span><br>Specializing only in Equine Insurance<b><br>On hand at all major cutting sales</b></p>
+        </div>
         </div>
       </div>
-    </div>
     <!-- .container -->
   </section>
 
-  <!-- footer-->
-  <div class="footer-wrapper">
     <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h3>For Immediate Coverage:</h3>
+          <h4>For Immediate Coverage:</h4>
           <p>1-877-599-9001</p>
           <p>Fax 817-599-0103</p>
           <p>Ben Emison Insurance Agency, Inc. 426 Charlie Way Weatherford, Texas 76087</p>
         </div>
         <div class="col-md-4">
-          <h3>Personal Services:</h3>
+          <h4>Personal Services:</h4>
           <p>Jo Anne Means, Agent <br>Cell 817-304-0599 <br><a style="color:#fff;" href="mailto:jmeans@airmail.net">email</a><br></p>
           <p>Ben Emison, Agent <br>Cell 817-304-1988</p>
         </div>
         <div class="col-md-4">
           <p>Susie Koser, Agent <br>Cell 817-994-9801</p>
           <p>Lauren Middleton, Agent <br>Cell 601-248-0204</p>
+          <ol>
+            <li><i class="fa fa-2x social fa-facebook-official"></i></li>
+            <li><i class="fa  fa-2x social fa-instagram"></i></li>
+            <li><i class="fa fa-2x social fa-linkedin-square"></i></li>
+          </ol>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-10 offset-md-2">
-          <p class="copywrite">2011 - 2018 © Copyright Ben Emison Insurance Agency. All rights reserved. Site proudly designed and hosted by Big Sky Internet Design</p>
+    </div>
+    <div class="container-fluid copy-wrapper">
+     <div class="row">
+        <div class="col-md-12">
+          <p class=" text-center copywrite">2011 - 2018 © Copyright Ben Emison Insurance Agency. All rights reserved. Site proudly designed and hosted by Big Sky Internet Design</p>
         </div>
       </div>
     </div>
@@ -200,7 +225,7 @@
 
   <!-- Custom Js -->
   <script src="./js/app.js"></script>
-  </div>
+
 
 </body>
 
