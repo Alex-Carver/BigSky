@@ -403,9 +403,14 @@ ol li{
     background:#5F6192;
   }
 
-  .logo {
+/*---Navbar Logo---*/
+.navbar-brand{
     width: 200px;
     height: 80px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
   h4 {
@@ -499,9 +504,14 @@ footer h4 {
     font-size: 1.8rem;
     padding-bottom: 20px;
 }
-.logo {
+/*---Navbar Logo---*/
+.navbar-brand{
     width: 200px;
     height: 80px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .img {
     height: auto;
@@ -555,9 +565,14 @@ footer h4 {
     font-size: 1.8rem;
     padding-bottom: 20px;
 }
-.logo {
+/*---Navbar Logo---*/
+.navbar-brand{
     width: 200px;
     height: 80px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .img {
     height: auto;
