@@ -234,9 +234,13 @@ a {
 }
 
 /*---Navbar Logo---*/
-.logo {
+.navbar-brand{
     width: 200px;
     height: 80px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .fixed-top .navbar-nav .nav-link {
