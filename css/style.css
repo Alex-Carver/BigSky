@@ -216,9 +216,8 @@ a {
 
 /*---Navbar Logo---*/
 .logo {
-  width: 100%;
-  height: auto;
-
+    width: 200px;
+    height: 80px;
 }
 
 .fixed-top .navbar-nav .nav-link {
@@ -381,6 +380,11 @@ ol li{
     background:#5F6192;
   }
 
+  .logo {
+    width: 200px;
+    height: 80px;
+}
+
   h4 {
     font-family: 'Robot', sans-serif;
     color: #fff;
@@ -474,8 +478,7 @@ footer h4 {
 }
 .logo {
     width: 200px;
-    height: auto;
-
+    height: 80px;
 }
 .img {
     height: auto;
@@ -522,7 +525,7 @@ footer h4 {
 }
 .logo {
     width: 200px;
-    height: auto;
+    height: 80px;
 }
 .img {
     height: auto;
