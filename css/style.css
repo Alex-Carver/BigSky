@@ -539,4 +539,12 @@ footer h4 {
 
 }
 
+.arrow{
+  display: none;
+}
+
+.bounce{
+  display: none;
+}
+
 }
